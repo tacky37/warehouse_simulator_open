@@ -1,23 +1,24 @@
 # README
 
-## 実行方法
+## Requirement
 
 `pip install < requirements.txt`
 
-### 数値シミュレータ
+### Numerical Simulator
 
 ```
     cd core
     python run.py
 ```
 
-### 可視化
+- Simulation results are output to `/record`
+
+### visualization (not open)
 
 ```
 cd twinu_web
 daphne twinu_web.asgi:application
 ```
 
-- `localhost:8000/model.html`にアクセス  
-- 「Doit」を押すと動く（オブジェクトが表示されるまで時間がかかる）
-- 「Layer」を一回押すと見やすくなる
+- access to `localhost:8000/model.html`
+- push the "Doit" button
